@@ -40,7 +40,7 @@ a {
   color: #4d5ae5;
 }
 
-.header-item {
+.header-item-link {
   font-weight: 500;
   font-size: 16px;
 
@@ -72,11 +72,11 @@ a {
   color: #434455;
 }
 
-.address-item:hover {
+.address-nav:hover {
   color: #404bbf;
 }
 
-.address-item:focus {
+.address-nav:focus {
   color: #404bbf;
 }
 
@@ -187,12 +187,13 @@ a {
   color: #434455;
 }
 
-.portfolio-list {
+.portfolio-item {
   background-color: #ffffff;
 }
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
+  text-transform: capitalize;
 
   /* line-height: 40px; */
   line-height: 1.11;
